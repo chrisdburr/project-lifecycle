@@ -1,0 +1,1072 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A guide to understanding the policy and regulatory implications  of machine learning algorithms and AI systems.">
+      
+      
+      
+        <link rel="canonical" href="https://project-lifecycle.netlify.app/case-studies/case-study-1/">
+      
+      
+        
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.9+insiders-4.20.1">
+    
+    
+      
+        <title>Recognition: Autonomous Vehicles - The Project Lifecycle</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.19db47b7.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+  
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 0 1-.779-.406z"/></svg>');}</style>
+
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="pink">
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#recognition-autonomous-vehicles" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="The Project Lifecycle" class="md-header__button md-logo" aria-label="The Project Lifecycle" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 2v2.06A8.522 8.522 0 0 0 4.05 9H2v6h2.06A8.494 8.494 0 0 0 9 19.95V22h6v-2.06A8.494 8.494 0 0 0 19.95 15H22V9h-2.06A8.522 8.522 0 0 0 15 4.05V2m-4 2h2v2h-2m-2 .25V8h6V6.25c1.18.61 2.14 1.57 2.75 2.75H16v6h1.75A6.406 6.406 0 0 1 15 17.75V16H9v1.75A6.406 6.406 0 0 1 6.25 15H8V9H6.25A6.406 6.406 0 0 1 9 6.25M4 11h2v2H4m14-2h2v2h-2m-7 5h2v2h-2"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Project Lifecycle
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Recognition: Autonomous Vehicles
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="pink"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/chrisdburr/project-lifecycle" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    chrisdburr/project-lifecycle
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+
+
+
+
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+
+
+
+
+  
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../lifecycle/pl-introduction/" class="md-tabs__link">
+          
+  
+  The AI Project Lifecycle
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+
+
+
+
+  
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../cs-introduction/" class="md-tabs__link">
+          
+  
+  Case Studies
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+
+
+
+
+  
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../assurance/as-introduction/" class="md-tabs__link">
+          
+  
+  Trust and Assurance
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="The Project Lifecycle" class="md-nav__button md-logo" aria-label="The Project Lifecycle" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 2v2.06A8.522 8.522 0 0 0 4.05 9H2v6h2.06A8.494 8.494 0 0 0 9 19.95V22h6v-2.06A8.494 8.494 0 0 0 19.95 15H22V9h-2.06A8.522 8.522 0 0 0 15 4.05V2m-4 2h2v2h-2m-2 .25V8h6V6.25c1.18.61 2.14 1.57 2.75 2.75H16v6h1.75A6.406 6.406 0 0 1 15 17.75V16H9v1.75A6.406 6.406 0 0 1 6.25 15H8V9H6.25A6.406 6.406 0 0 1 9 6.25M4 11h2v2H4m14-2h2v2h-2m-7 5h2v2h-2"/></svg>
+
+    </a>
+    The Project Lifecycle
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/chrisdburr/project-lifecycle" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    chrisdburr/project-lifecycle
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        
+        
+          <label class="md-nav__link" for="__nav_2">
+            
+  
+  <span class="md-ellipsis">
+    The AI Project Lifecycle
+  </span>
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" aria-label="The AI Project Lifecycle" data-md-level="1">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            The AI Project Lifecycle
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lifecycle/pl-introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Section Overview
+  </span>
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lifecycle/project-lifecycle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is the AI Project Lifecycle
+  </span>
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lifecycle/project-design/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    (Project) Design
+  </span>
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lifecycle/model-development.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    (Model) Development
+  </span>
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lifecycle/system-deployment.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    (System) Deployment
+  </span>
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+
+
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        
+        
+          <label class="md-nav__link" for="__nav_3">
+            
+  
+  <span class="md-ellipsis">
+    Case Studies
+  </span>
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" aria-label="Case Studies" data-md-level="1">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Case Studies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cs-introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Section Overview
+  </span>
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-to/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How to use the case studies
+  </span>
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+
+
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        
+        
+          <label class="md-nav__link" for="__nav_4">
+            
+  
+  <span class="md-ellipsis">
+    Trust and Assurance
+  </span>
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" aria-label="Trust and Assurance" data-md-level="1">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Trust and Assurance
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assurance/as-introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assurance/safe-d-principles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SAFE-D Principles
+  </span>
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assurance/property-claims.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project and System Property Claims
+  </span>
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tags-case-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      tags: case study
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-case-study-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Case Study Details
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Case Study Details">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#case-study-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Case Study Description
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#category-definition-what-is-recognition" class="md-nav__link">
+    <span class="md-ellipsis">
+      Category Definition: What is Recognition?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      Background
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Information
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-regulatory-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Regulatory Considerations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Regulatory Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#specific-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Specific Issues
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#existing-and-proposed-uk-regulation-or-legislation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Existing and Proposed UK Regulation or Legislation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gaps-in-current-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gaps in Current Framework
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#socioeconomic-value-chains" class="md-nav__link">
+    <span class="md-ellipsis">
+      Socioeconomic Value Chains
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#harms-and-benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Harms and Benefits
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+  <a href="https://github.com/chrisdburr/project-lifecycle/edit/master/docs/case-studies/case-study-1.md" title="Edit this page" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+
+<h1 id="recognition-autonomous-vehicles">Recognition: Autonomous Vehicles<a class="headerlink" href="#recognition-autonomous-vehicles" title="Permanent link">&para;</a></h1>
+<h6 id="tags-case-study">tags: <code>case study</code><a class="headerlink" href="#tags-case-study" title="Permanent link">&para;</a></h6>
+<h2 id="1-summary">1. Summary<a class="headerlink" href="#1-summary" title="Permanent link">&para;</a></h2>
+<p>In this case study, we define and discuss the topic of autonomous vehicles (AVs) with respect to algorithmic techniques that engage in Recognition. </p>
+<p>Specifically, we follow a firm through the process of developing and deploying a new AV to market. We examine the definition of Recognition as an AI category, the key classification data for AVs, the applicable regulatory framework for bringing AVs to market (as well as any gaps in the current regulation). We also look at the relevant ethical considerations involved, and the potential parties in the value which chain might be affected.</p>
+<h2 id="2-case-study-details">2. Case Study Details<a class="headerlink" href="#2-case-study-details" title="Permanent link">&para;</a></h2>
+<h3 id="case-study-description">Case Study Description<a class="headerlink" href="#case-study-description" title="Permanent link">&para;</a></h3>
+<p>A company is in the process of deploying to market a new self-driving car. The AV enables a person to sit behind the steering wheel without controlling either the steering or acceleration/braking of the vehicle, but expects the person to pay attention and to take control of the vehicle if an unexpected event occurs. In this case, a "transition demand" notification will ask the user-in-charge to take active control of the vehicle.</p>
+<p>As will be discussed in greater length below, some of the main regulatory challenges of getting a viable product to market occur where the level of driving automation is such that the vehicle is self-driving but where a human is still expected to remain in charge when an problem arises which the AV cannot handle on its own (a transition demand).</p>
+<h3 id="category-definition-what-is-recognition">Category Definition: What is Recognition?<a class="headerlink" href="#category-definition-what-is-recognition" title="Permanent link">&para;</a></h3>
+<div class="admonition note">
+<p class="admonition-title"> </p>
+<p>Recognition is the identification of different objects or persons as members of categories based on their specific properties or characteristics.</p>
+<p>In the context of AI, recognition has a wide range of applications (eg identity verification, autonomous navigation), depending on the type of data available (such as text, images, videos, audio, etc). Convolutional neural networks are a common type of AI technique used for recognition (eg facial recognition).</p>
+<p>The output of a recognition task is usually a label or tag which categorises data. For example, in image recognition the label might be “This is a tree”; in audio recognition, “This is the sound of a barking dog”; and in handwriting recognition, “This is a letter C”. </p>
+<p>A model or system can be defined as undertaking a recognition task if it takes either structured or unstructured data as input (D) and generates an output variable (O) that classifies the data input as belonging to some set or category.</p>
+</div>
+<h3 id="background">Background<a class="headerlink" href="#background" title="Permanent link">&para;</a></h3>
+<p>Key terms include:</p>
+<ul>
+<li>“User-in-charge”: The person in the driver’s seat, who is expected to regain control of the vehicle in the event of a transition demand.</li>
+<li>"Transition Demand": An event where the AV would alert the user-in-charge to take charge of the vehicle.</li>
+<li>"No-user-in-charge": Situations where certain features--such as valet parking--might gain regulatory approval such that no humans are expected to be in charge of the vehicle.</li>
+<li>"Authorised Self-Driving Entity": The entity that seeks regulatory approval for automated features and retains legal responsibility for them.</li>
+</ul>
+<h3 id="key-information">Key Information<a class="headerlink" href="#key-information" title="Permanent link">&para;</a></h3>
+<div class="admonition info">
+<p class="admonition-title"> </p>
+<ul>
+<li>SIC Classification<ul>
+<li>Section: C</li>
+<li>Class: 29.100 (Manufacture of motor vehiles)</li>
+</ul>
+</li>
+<li>Stakeholders and Other Affected Individuals:<ul>
+<li>Users of AVs</li>
+<li>Other drivers on the road, pedestrians, cyclists, etc.</li>
+<li>AV manufacturers</li>
+<li>Value chain parties (see below)
+-Data Types:</li>
+<li>Sensory Data <ul>
+<li>External Environment (e.g. LiDAR, Radar, Camera)</li>
+<li>Internal Environment (e.g. vehicle speed, fuel levels)</li>
+</ul>
+</li>
+<li>Geospatial Data (e.g. roads, location)</li>
+</ul>
+</li>
+<li>Possible Algorithmic Techniques Employed: <ul>
+<li>Partially Observable Markov Decision Processes (Decision-Making)</li>
+<li>Deep Reinforcement Learning (Object Detection)</li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="3-regulatory-considerations">3. Regulatory Considerations<a class="headerlink" href="#3-regulatory-considerations" title="Permanent link">&para;</a></h2>
+<h3 id="specific-issues">Specific Issues<a class="headerlink" href="#specific-issues" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Ultimate liability: The central question when regulating AVs is who should be responsible when incidents occur. Different jurisdictions have taken different approaches. For instance, France and Germany have made the user-in-charge liable in certain cases, whereas the UK could move toward a 'no-liability for the occupants of the vehicle' model in the case of certain pre-approved features. The proposed UK model is for the Authorised Self-Driving Entity (ASDE) to secure an additional authorisation as a "no-user-in-charge operator". Here, the ASDE would have legal liability rather than the individuals using the AV. This distinction is captured in the image below:</li>
+</ul>
+<p><img alt="ASDE" src="../../assets/images/AV.png" /></p>
+<p>When is the ASDE actually at fault? Should liability lie with the ASDE or with the occupants of the vehicle?</p>
+<h3 id="existing-and-proposed-uk-regulation-or-legislation">Existing and Proposed UK Regulation or Legislation<a class="headerlink" href="#existing-and-proposed-uk-regulation-or-legislation" title="Permanent link">&para;</a></h3>
+<p>The UK is likely to make this distinction on a feature by feature basis. Special legal accountability rules will apply depending on whether a certain feature requires a user-in-charge:
+1.  If there is a user-in-charge: This person will be responsible for insurance and checking loads, and of taking over control over the car in response to a “transition demand” situation where the vehicle encounters an issue. This person will have immunity from driving functions such as dangerous or careless driving, speed checks, or running a red light.
+2.  In some cases, the vehicle can be approved on behalf of an Authorised Self-Driving Entity (or ASDE) as capable of having “no user-in-charge” (NUIC). NUIC features are those where all occupants of the vehicle are passengers and no one is a user-in-charge. Legal responsibility for safe driving would lie with a licensed NUIC operator.
+4.  The Automated and Electric Vehicles Act 2018 will govern civil liability questions. Injured parties would not need to prove fault, but would instead be directly compensated by insurers.</p>
+<p>Other regulatory considerations:</p>
+<ul>
+<li>"Passivity Problem": People find it more difficult to monitor a task passively than to be actively engaged in it. A person might be sitting behind the wheel, but once the vehicle is self-driving, that person will not engage their full attention to driving and will have limited ability to respond appropriately to events.</li>
+<li>"Vulnerable users": AVs should not put some groups at greater risk. For instance, vulnerable road users may include pedestrians, cyclists, motorcyclists and horse riders. Moreover, risk should not be increased for groups falling into protected characteristics, such as disability or age. For instance, testing may have been insufficient to determine an AV’s safety impact on wheelchair users. The ASDE should conduct an equality impact assessment when approving AVs.</li>
+<li>Equality: As a public authority, the Secretary of State is subject to the public sector equality duty. The expansion of AI-technologies into public roads means that public authorities must take the interests of protected groups into consideration when updating licencing and road safety laws.</li>
+<li>"Transition Demand": To what extent should a user-in-charge  be expected to respond to events? Should a user-in-charge be liable in the absence of a transition demand from the AV to the person in the driving seat? For instance, German legislation requires users to respond to “obvious circumstances,” and French legislation requires users to respond to emergency services vehicles. The Law Commission of England and Wales and the Scottish Law Commission take the view that these exceptions require too much if the user is not normally expected to pay attention to the driving task. Instead, they state that an  automated driving system (ADS) feature must be safe even in the absence of human intervention; in case of events such as floods or emergency vehicles, the AV should issue a transition demand to the user-in-charge or come to a safe stop.</li>
+<li>"Duty of Candour": Organisations responsible for AVs would have a duty of candour regarding any incidents, making it a criminal offence to (1) fail to provide information to the regulator or (2) provide information to the regulator that is false or misleading. </li>
+<li>Privacy laws and data protection: AVs will record and store data, including local data, to permit analysis of vehicle collisions.  ASDEs will be responsible for ensuring that AV data complies with data protection laws. </li>
+</ul>
+<h3 id="gaps-in-current-framework">Gaps in Current Framework<a class="headerlink" href="#gaps-in-current-framework" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Regulatory gap: As currently conceived, EDRs will not record details of individual vehicles. They cannot be used to investigate individual incidents. AVs will need to store more data than are captured by EDRs alone. </li>
+<li>Cybersecurity issues: One safety issue is the potential for interference with AVs, ranging from computer hacking to interfering with a vehicle’s sensors. Hacking is a criminal offence under the Computer Misuse Act 1990. Existing laws would likely cover most instances of intentional interference with AVs. However, section 25 of the Road Traffic Act 1988 must be amended it to make it an offence to tamper with any significant part of an AV.</li>
+<li>Marketing: Marketing must also be monitored, as consumers should not be given the misleading impression that they have no responsibilities in an AV. Furthermore, marketing must not mislead consumers into thinking vehicles have self-driving capabilities greater than they are in reality. On the flip side, marketing should not be used as a way to avoid liability (e.g. Tesla using Beta software and placing liability on the shoulders of the user).</li>
+</ul>
+<h3 id="socioeconomic-value-chains">Socioeconomic Value Chains<a class="headerlink" href="#socioeconomic-value-chains" title="Permanent link">&para;</a></h3>
+<p>Legal liability for AVs ultimately lies with the ASDE. The ASDE must conduct an equality impact assessment and submit it alongside a safety case for the AV in question. As the <a href="https://s3-eu-west-2.amazonaws.com/lawcom-prod-storage-11jsxou24uy7q/uploads/2022/01/Automated-vehicles-joint-report-cvr-03-02-22.pdf">Law Commission of England and Wales &amp; the Scottish Law Commission have noted</a>, there might be an opportunity to meet the needs of an underserved population: </p>
+<blockquote>
+<p>One of the main advantages of AVs is their potential to make life better for those with disabilities. They provide hope to people currently unable to drive that they may be able to own a car. They also have the potential to offer new forms of on-demand services.</p>
+</blockquote>
+<p>Other parties affected include:</p>
+<ul>
+<li>Insurers</li>
+<li>Certifying companies</li>
+<li>Marketing companies</li>
+<li>User education companies</li>
+<li>The issuance of “interim passenger permits”  would allow passenger service providers to have conditional operational approval of AVs pending further evidence on how AVs interact with passenger safety and accessibility</li>
+<li>Other impacted industries -- providers of vehicles such as bicycles, motorcycles, scooters, etc.</li>
+</ul>
+<h3 id="harms-and-benefits">Harms and Benefits<a class="headerlink" href="#harms-and-benefits" title="Permanent link">&para;</a></h3>
+<p>Based on initial empirical results, AVs are expected to be a lot safer than human drivers. The question is how much safer they must be relative to humans in order for us to accept their rate of incidents.</p>
+<p>AVs operate with incomplete knowledge of their environment. This happens because their sensors are, typically, designed to measure some specific properties of the environment, but have limitations in terms of their range and accuracy. These can include possible occlusions (e.g. inability to perceive one object behind another) or latency issues (i.e. the time it takes for the sensor and system to process information in a dynamic environment.</p>
+<p>As such, AVs are inherently probabilistic in how they operate. That is, the accuracy with which they recognise objects can be expressed in probabilistic terms (e.g. a confidence rating). Furthemore, they can possess priors about their environment, which are constantly updated as new information is collected. For instance, an AV could have a high prior belief of encountering a car on the road, and a low prior belief of encountering a horse and cart. The ability for AVs to take decisions based on the available information is, therefore, a complex combination of current and prior information.</p>
+<p>Beyond the regulatory issues discussed above, other ethical issues involving potential harms include:</p>
+<ul>
+<li>Practical decision-making: How should the AV decide whom to protect? </li>
+<li>When is an ADS good enough? An ADS is the combination of software and hardware that perform the driving task. A vehicle may have several ADS features.</li>
+<li>Explainability of AV systems: What level of explainability is morally expected when incidents occur? Who are the moral agents responsible for collisions and deaths?</li>
+</ul>
+
+
+
+
+
+              
+            </article>
+            
+<script>var input,hash=location.hash.slice(1);hash.startsWith("__tabbed_")&&((input=document.getElementById(hash)).checked=!0)</script>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs Insiders
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.code.annotate", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.720157f5.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.5e3df397.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tablesort.js"></script>
+      
+    
+  </body>
+</html>
