@@ -120,7 +120,6 @@ extra_css:
 
 # Page tree
 nav:
-  - Home: index.md
   - Introduction: introduction.md
   - The AI Project Lifecycle:
     - Section Overview: lifecycle/pl-introduction.md
